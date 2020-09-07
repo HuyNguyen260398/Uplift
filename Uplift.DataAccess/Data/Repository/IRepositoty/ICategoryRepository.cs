@@ -10,6 +10,6 @@ namespace Uplift.DataAccess.Data.Repository.IRepositoty
     {
         IEnumerable<SelectListItem> GetCategoryListForDropDown();
 
-        void Update(Category category);
+        void Update(Category category); 
     }
 }
