@@ -6,7 +6,7 @@ using Uplift.Models;
 
 namespace Uplift.DataAccess.Data.Repository.IRepositoty
 {
-    interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
         IEnumerable<SelectListItem> GetCategoryListForDropDown();
 
