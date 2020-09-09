@@ -7,6 +7,7 @@ using Uplift.DataAccess.Data.Repository.IRepositoty;
 
 namespace Uplift.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
